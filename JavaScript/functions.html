@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+       <title>Learning JavaScript</title>
+   </head>
+   
+   <body>
+     
+    <center><h1>Functions</h1></center>
+    <h3>If we have a piece of code and we want to run lot of time we can put then into the function and use it instead of using again and again. </h3>
+    <p><strong>JavaScript Function Syntax</strong></p>
+    <ol>
+        <li>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().</li>
+        <li>Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).</li>
+        <li>The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)</li>
+   <li>he code to be executed, by the function, is placed inside curly brackets: {}</li>
+    </ol>
+    
+    <h2>Example:</h2>
+    
+    <p>function calculateAge(birthYear){<br />
+    return 2018 - birthYear;<br />
+}<br />
+<br />
+var ageRoopak = calculateAge(1992);<br />
+var ageBrooke = calculateAge(1993);<br />
+var ageRamesh = calculateAge(1991);<br />
+console.log(ageRoopak, ageBrooke, ageRamesh);<br />
+
+function yearUntilRetirement(year, firstName) {<br />
+    var age = calculateAge(year);<br />
+    var retirment = 65 - age;<br />
+    console.log(firstName + ' retires in ' + retirment + 'years.');<br />
+}<br />
+<br />
+yearUntilRetirement(1992, 'Roopak');<br />
+yearUntilRetirement(1993, 'Brooke');<br />
+yearUntilRetirement(1991, 'Ramesh');</p><br />
+     
+     
+      <form action="func_result.html">
+          <input type="submit"  name="Check" value="Check">
+          <p>click 'Check' to see the answer</p>
+      </form>
+     
+      </body>
+   <script src="functions.js"></script>
+    
+</html>

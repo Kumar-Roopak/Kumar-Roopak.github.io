@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Roopak Kumar",
+    "company": "123 Designs",
+    "phone": "801-657-2840"
+  },
+  {
+    "id": 2,
+    "name": "Brooke Roberts",
+    "company": "Hello Productions",
+    "phone": "801-222-2840"
+  },
+  {
+    "id": 3,
+    "name": "Davod Arulldoss",
+    "company": "Traversy Media",
+    "phone": "801-234-8890"
+  }
+]

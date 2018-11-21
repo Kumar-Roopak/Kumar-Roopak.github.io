@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript inheritance</title>
+</head>
+<body>
+  <h1>JSON.stringify()</h1>
+  <ul>
+      <li>A common use of JSON is to exchange data to/from a web server.</li>
+      <li>When sending data to web server, the data has to be string.</li>
+      <li>Convert a javaScript object into a string with JSON.string().</li>
+      <li>JSON.stringly(object)</li>
+  </ul>
+
+  <script>
+  var obj = {
+      "name" : "Roopak"
+      "age" : 26,
+      "Height" : 5.11,
+      "Weight" : "170 pounds"
+  };
+
+      document.write(JSON.stringify(obj));
+  
+  </script>
+    <script>
+    var obj = {
+        "hobbies" : ["Cricket", "Scoccer", "Hockey", "Badmantion"]
+    };
+        document.write(JSON.stringify(obj));
+    
+    
+    </script>
+</body>
+</html>
