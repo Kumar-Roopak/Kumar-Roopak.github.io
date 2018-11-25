@@ -1,0 +1,41 @@
+@keyframes goAroundThePage {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    left: 0;
+    top: calc(100% - 75px);
+  }
+
+  50% {
+    top: calc(100% - 75px);
+    left: calc(100% - 75px);
+  }
+
+  75% {
+    left: calc(100% - 75px);
+    top: 0;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+.box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 75px;
+  height: 75px;
+  background-color: #8c1515;
+  animation-name: goAroundThePage;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
