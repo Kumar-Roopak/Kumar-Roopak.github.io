@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+<!--    <link rel="shortcut icon" href="favicon.png">-->
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <div class="modal">
+        <h1 class="modal__title">Do you want to continue?</h1>
+        <div class="modal__actions">
+            <a href="start-hosting/index.html" class="modal__action">Yes!</a>
+            <button class="modal__action modal__action--negative" type="button">No!</button>
+        </div>
+    </div>
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a href="index.html" class="main-header__brand">
+                <img src="images/uhost-icon.png" alt="uHost - Your favorite hosting company">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="packages/index.html">How It Works</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="customers/index.html">Customers</a>
+                </li>
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="start-hosting/index.html">Contact Us!</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="packages/index.html">How It Works</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="customers/index.html">Customers</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="start-hosting/index.html">Contact Us!</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="product-overview">
+            <h1>Get the taste you deserve.</h1>
+        </section>
+        <section id="plans">
+            <h1 class="section-title">Choose Your Plan</h1>
+            <div class="plan__list">
+                <article class="plan">
+                    <h1 class="plan__title">Silver</h1>
+                    <h2 class="plan__price">$100/month</h2>
+                    <h3>Every day meal for one person</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">One Entree of your choice</li>
+                        <li class="plan__feature">Naan Bread</li>
+
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article class="plan plan--highlighted">
+                    <h1 class="plan__annotation">Gold</h1>
+                    <h2 class="plan__price">$150/month</h2>
+                    <h3>Combo Meal</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">One Entree of your choice</li>
+                        <li class="plan__feature">Naan Bread</li>
+                        <li class="plan__feature">Mango Yougurt Drink</li>
+                        <li class="plan__feature">Desert</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article class="plan">
+                    <h1 class="plan__title">Platinum</h1>
+                    <h2 class="plan__price">$200/month</h2>
+                    <h3>Complete meal combo pack</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">Two Entree of your choice</li>
+                        <li class="plan__feature">2 Naan Bread</li>
+                        <li class="plan__feature">Mango Yougurt Drink</li>
+                        <li class="plan__feature">Desert</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+    </main>
+    
+
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of Use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="food.js"></script>
+</body>
+
+</html>

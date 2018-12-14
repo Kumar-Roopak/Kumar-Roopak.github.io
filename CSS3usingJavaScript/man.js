@@ -1,10 +1,6 @@
 // JavaScript demonstration
-
-var square = document.getElementById("square"),
-    clickMe = document.getElementById('clickMe'); 
-function doDemo () {
-
-  var button = this;
+function doDemo (button) {
+  var square = document.getElementById("square");
   square.style.backgroundColor = "#fa4";
   button.setAttribute("disabled", "true");
   setTimeout(clearDemo, 2000, button);
@@ -15,5 +11,3 @@ function clearDemo (button) {
   square.style.backgroundColor = "transparent";
   button.removeAttribute("disabled");
 }
-
-clickMe.onclick = doDemo;
