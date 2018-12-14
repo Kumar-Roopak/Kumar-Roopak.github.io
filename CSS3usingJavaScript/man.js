@@ -1,4 +1,4 @@
-// JavaScript demonstration
+
 function doDemo (button) {
   var square = document.getElementById("square");
   square.style.backgroundColor = "#fa4";
